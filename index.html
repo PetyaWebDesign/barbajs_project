@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barba.js project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body data-barba="wrapper">
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">services</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main data-barba="container" data-barba-namespace="home">
+            <div class="left">
+                <h1>An Ongoing Experience</h1>
+                <a href="services.html" class="cta">Take me there</a>
+            </div>
+            <img src="./img/img1.jpg" alt="image">
+        </main>
+    </div>
+
+
+
+
+    <!-- Barba.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
