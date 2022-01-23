@@ -41,6 +41,8 @@ function delay(n) {
 
 }
 
+
+// Init barba.js
 barba.init({
     sync: true,
     transitions: [{
@@ -64,3 +66,6 @@ barba.init({
 })
 
 pageTransition();
+
+// Init lightgallery.js
+// lightGallery(document.querySelector('.gallery'));
